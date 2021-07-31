@@ -1,0 +1,16 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# private key
+
+# environment variables
+*.envrc
+
+# input files
+input
+
+# output files
+output

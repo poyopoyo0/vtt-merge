@@ -1,0 +1,10 @@
+{
+  "name": "vtt-merge",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "poyopoyo",
+  "license": "MIT",
+  "dependencies": {
+    "node-webvtt": "^1.9.3"
+  }
+}
