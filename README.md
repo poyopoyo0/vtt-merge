@@ -15,7 +15,13 @@ $ npm install
 ## Running
 
 ```sh
-$ npm start
+$ node index.js [First vtt file path] [Second vtt file path]
+```
+
+or
+
+```sh
+$ node index.js [First vtt file path]
 ```
 
 or
