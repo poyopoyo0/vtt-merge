@@ -69,6 +69,8 @@ if (!fs.existsSync('output')) {
 
   fs.writeFile(`${vttFilePath.mergedVttFilePath}/mergedVtt.vtt`, mergedVtt, (err, data) => {
     if (err) console.log(err);
-    console.log(`\nMerged vtt file generated as ${vttFilePath.mergedVttFilePath}/mergedVtt.vtt.\n`);
+    console.log(
+      `\nMerged vtt file was generated as ${vttFilePath.mergedVttFilePath}/mergedVtt.vtt.\n`
+    );
   });
 })();
