@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "poyopoyo",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "inquirer": "^8.1.2",
     "inquirer-fuzzy-path": "^2.3.0",
