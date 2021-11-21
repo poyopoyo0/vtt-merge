@@ -100,10 +100,12 @@ if (!fs.existsSync('output')) {
     return 0;
   });
 
-  const mergedVtt = webvtt.compile({
-    cues: cuesArray,
-    valid: true,
-  });
+  const mergedVtt = webvtt
+    .compile({
+      cues: cuesArray,
+      valid: true,
+    })
+    .replace(/\n/g, '\r\n');
 
   fs.writeFile(`${vttFilePath.mergedVttFilePath}/mergedVtt.vtt`, mergedVtt, (err, data) => {
     if (err) {
